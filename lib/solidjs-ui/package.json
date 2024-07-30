@@ -1,0 +1,20 @@
+{
+  "name": "@jon-codewolf/solidjs-ui",
+  "version": "0.0.1-beta.1" ,
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && bun run postbuild.ts",
+    "publish": "bun run build && bun run publish.ts"
+  },
+  "peerDependencies": {
+    "solid-js": "^1.8.19",
+    "bun": "^1.1.21",
+    "polished": "^4.3.1",
+    "solid-styled-components": "^0.28.5",
+    "@types/bun": "^1.1.6",
+    "vite": "^5.3.5",
+    "vite-plugin-solid": "^2.10.2"
+  }
+}

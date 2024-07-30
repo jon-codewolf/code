@@ -1,0 +1,22 @@
+{
+  "name": "@jon-codewolf/lib",
+  "version": "0.0.1-beta.1",
+  "workspaces": [
+    "lib/solidjs-ui"
+  ],
+  "dependencies": {
+    "solid-js": "1.8.19"
+  },
+  "scripts": {
+    "build": "bun --filter '*' build",
+    "publish": "bun --filter '*' publish"
+  },
+  "devDependencies": {
+    "solid-styled-components": "0.28.5",
+    "polished": "4.3.1",
+    "bun": "1.1.21",
+    "@types/bun": "1.1.6",
+    "vite": "5.3.5",
+    "vite-plugin-solid": "2.10.2"
+  }
+}
