@@ -2,7 +2,8 @@
   "name": "@jon-codewolf/lib",
   "version": "0.0.1-beta.1",
   "workspaces": [
-    "lib/solidjs-ui"
+    "lib/solidjs-ui",
+    "lib/solidjs-ui/example/*"
   ],
   "dependencies": {
     "solid-js": "1.8.19"
@@ -13,10 +14,14 @@
   },
   "devDependencies": {
     "solid-styled-components": "0.28.5",
-    "polished": "4.3.1",
-    "bun": "1.1.21",
     "@types/bun": "1.1.6",
+    "bun": "1.1.21",
+    "dts": "^0.1.1",
+    "from": "^0.1.7",
+    "import": "^0.0.6",
+    "polished": "4.3.1",
     "vite": "5.3.5",
+    "vite-plugin-dts": "3.9.1",
     "vite-plugin-solid": "2.10.2"
   }
 }

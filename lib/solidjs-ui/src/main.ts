@@ -1,4 +1,5 @@
-import './styled.d.ts'
+export * from "solid-styled-components";
 export * from "./component";
-export { ThemeProvider, type DefaultTheme } from "solid-styled-components";
-
+export * from "./theme";
+import { Theme } from "./theme";
+export interface DefaultTheme extends Theme {}
