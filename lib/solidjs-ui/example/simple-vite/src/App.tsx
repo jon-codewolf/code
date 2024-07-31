@@ -4,6 +4,8 @@ import {
   ThemeProvider,
 } from "../../../../../dist/solidjs-ui";
 
+import "../../../../../dist/solidjs-ui/assets/css/reset/tailwind-compact.css"
+
 function App() {
   return (
     <ThemeProvider theme={theme}>

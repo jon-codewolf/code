@@ -1,0 +1,19 @@
+{
+  "name": "@jon-codewolf/zychron",
+  "version": "0.0.1-beta.1",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "peerDependencies": {
+    "bun": "^1.1.21",
+    "@types/bun": "^1.1.6",
+    "vite": "^5.3.5",
+    "vike": "^0.4.182",
+    "solid-js": "^1.8.19",
+    "vike-solid": "^0.6.2",
+    "@jon-codewolf/solidjs-ui": "workspace:*"
+  }
+}

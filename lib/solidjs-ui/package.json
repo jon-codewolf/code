@@ -1,10 +1,11 @@
 {
   "name": "@jon-codewolf/solidjs-ui",
-  "version": "0.0.10-beta.8" ,
+  "version": "0.0.10-beta.8",
   "private": false,
   "type": "module",
   "exports": {
-    ".": "./src/main.ts"
+    ".": "./src/main.ts",
+    "./assets/*": "./src/assets/*"
   },
   "scripts": {
     "dev": "vite",
@@ -19,6 +20,8 @@
     "@types/bun": "^1.1.6",
     "vite": "^5.3.5",
     "vite-plugin-solid": "^2.10.2",
-    "vite-plugin-dts": "^3.9.1"
+    "vite-plugin-dts": "^3.9.1",
+    "fs-extra": "^11.2.0",
+    "@types/fs-extra": "^11.0.4"
   }
 }

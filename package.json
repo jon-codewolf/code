@@ -2,26 +2,28 @@
   "name": "@jon-codewolf/lib",
   "version": "0.0.1-beta.1",
   "workspaces": [
+    "app/zychron",
     "lib/solidjs-ui",
     "lib/solidjs-ui/example/*"
   ],
-  "dependencies": {
-    "solid-js": "1.8.19"
-  },
   "scripts": {
     "build": "bun --filter '*' build",
     "publish": "bun --filter '*' publish"
   },
   "devDependencies": {
-    "solid-styled-components": "0.28.5",
     "@types/bun": "1.1.6",
     "bun": "1.1.21",
-    "dts": "^0.1.1",
-    "from": "^0.1.7",
-    "import": "^0.0.6",
     "polished": "4.3.1",
-    "vite": "5.3.5",
+    "solid-js": "1.8.19",
+    "solid-styled-components": "0.28.5",
+    "vike-solid": "0.6.2",
+    "vike": "0.4.182",
     "vite-plugin-dts": "3.9.1",
-    "vite-plugin-solid": "2.10.2"
+    "vite-plugin-solid": "2.10.2",
+    "vite": "5.3.5"
+  },
+  "dependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "fs-extra": "^11.2.0"
   }
 }

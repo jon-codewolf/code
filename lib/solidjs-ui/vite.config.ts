@@ -30,7 +30,7 @@ export default defineConfig({
         globals: {
           "solid-js": "Solid",
           "solid-js/web": "SolidWeb",
-          "solid-styled-components": "@jon-codewolf/solidjs-ui"
+          "solid-styled-components": "@jon-codewolf/solidjs-ui",
         },
       },
     },

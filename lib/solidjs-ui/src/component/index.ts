@@ -1,5 +1,6 @@
 export { Button } from "./button.cmp";
 export { AppNav } from "./app-nav.cmp";
+export {AppNavBasic} from './app-nav/app-nav-basic.cmp'
 export { Scaffold } from "./scaffold.cmp";
 export { Carousel } from "./carousel.cmp";
 export { Section } from "./section.cmp";
